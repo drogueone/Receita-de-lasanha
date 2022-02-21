@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;55;700&family=Redressed&display=swap');
+
+:root {
+  --primary: #A65F37;
+  --secondary: #BFA18F;
+  --white: #fff;
+  --grey: #8f8f8f;
+  --black: #000;
+  --background: #fff;
+  --transition: .3s ease-in-out;
+  --animation: translateY(-5px) rotate(10deg);
+  --border: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--grey);
+}
+
+h1 {
+  color: var(--white);
+  font-family: Redressed;
+  font-size: 2rem;
+}
+
+h2,h3 {
+  color: var(--primary);
+}
+
+h1,h2,h3,p {
+  cursor: default;
+}
+
+a {
+  color: var(--primary);
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+ul,ol {
+  margin-left: 1rem;
+}
+
+li {
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+img {
+  background-size: cover;
+}
+
+img, iframe {
+  border-radius: .5rem;
+}

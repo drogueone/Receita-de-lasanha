@@ -1,0 +1,50 @@
+@media screen and (max-width: 1300px) {
+  section:nth-child(1), section:nth-child(3) {
+    margin-left: 0;
+  }
+  
+  section:nth-child(2), section:nth-child(4) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  main .introduction, main .video {
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: none;
+    padding: 0 1.5rem;
+  }
+
+  main .introduction h2, main .video h2 {
+    color: var(--primary);
+  }
+
+  main .video iframe {
+    height: 515px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .video iframe {
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 16px;
+  }
+  main {
+    margin: 2rem .5rem;
+  }
+
+  section {
+    padding: 0;
+  }
+}

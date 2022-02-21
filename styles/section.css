@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  padding: 4rem;
+
+  border-radius: var(--border);
+}
+
+section h2 {
+  margin-bottom: 2rem;
+}
+
+section h3 {
+  margin: 2rem 0;
+}
+
+section ul, ol {
+  padding-left: 2rem;
+}
+
+section:nth-child(1), section:nth-child(3) {
+  margin-left: 4rem;
+}
+
+section:nth-child(2), section:nth-child(4) {
+  margin-right: 4rem;
+}
